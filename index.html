@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
-        <script src="assets/js/scripts.js" defer></script>
-        <title>Document</title>
-    </head>
-    <body>
-        <div class="container">
-            <h2>Jogo da memória</h2>
-            <div class="game"></div>
-            <button class="reset" onclick="window.location.reload()">
-                Reset Game
-            </button>
-        </div>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/scripts.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h2>Jogo da memória</h2>
+        <div id="game" class="game"></div>
+        <button onclick="window.location.reload()" class="reset">
+          Reset Game
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
